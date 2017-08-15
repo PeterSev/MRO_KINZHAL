@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRO", "MRO\MRO.csproj", "{8A5F720F-2E06-440A-9AD9-0257E7BBA982}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MRO_Kinzhal", "MRO\MRO_Kinzhal.csproj", "{8A5F720F-2E06-440A-9AD9-0257E7BBA982}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
