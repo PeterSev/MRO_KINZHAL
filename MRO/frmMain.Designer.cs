@@ -1415,6 +1415,7 @@
             // radA5_9_32
             // 
             this.radA5_9_32.AutoSize = true;
+            this.radA5_9_32.Enabled = false;
             this.radA5_9_32.Location = new System.Drawing.Point(269, 3);
             this.radA5_9_32.Name = "radA5_9_32";
             this.radA5_9_32.Size = new System.Drawing.Size(40, 17);
@@ -1437,6 +1438,7 @@
             // radA5_9_16
             // 
             this.radA5_9_16.AutoSize = true;
+            this.radA5_9_16.Enabled = false;
             this.radA5_9_16.Location = new System.Drawing.Point(161, 2);
             this.radA5_9_16.Name = "radA5_9_16";
             this.radA5_9_16.Size = new System.Drawing.Size(40, 17);
@@ -1481,10 +1483,12 @@
             // radA5_9_OPZ
             // 
             this.radA5_9_OPZ.AutoSize = true;
+            this.radA5_9_OPZ.Checked = true;
             this.radA5_9_OPZ.Location = new System.Drawing.Point(201, 3);
             this.radA5_9_OPZ.Name = "radA5_9_OPZ";
             this.radA5_9_OPZ.Size = new System.Drawing.Size(48, 17);
             this.radA5_9_OPZ.TabIndex = 1;
+            this.radA5_9_OPZ.TabStop = true;
             this.radA5_9_OPZ.Text = "ОПЗ";
             this.radA5_9_OPZ.UseVisualStyleBackColor = true;
             this.radA5_9_OPZ.Click += new System.EventHandler(this.radA5_9_Click);
@@ -1503,12 +1507,10 @@
             // radA5_9_SHPZ
             // 
             this.radA5_9_SHPZ.AutoSize = true;
-            this.radA5_9_SHPZ.Checked = true;
             this.radA5_9_SHPZ.Location = new System.Drawing.Point(93, 4);
             this.radA5_9_SHPZ.Name = "radA5_9_SHPZ";
             this.radA5_9_SHPZ.Size = new System.Drawing.Size(49, 17);
             this.radA5_9_SHPZ.TabIndex = 1;
-            this.radA5_9_SHPZ.TabStop = true;
             this.radA5_9_SHPZ.Text = "ШПЗ";
             this.radA5_9_SHPZ.UseVisualStyleBackColor = true;
             this.radA5_9_SHPZ.Click += new System.EventHandler(this.radA5_9_Click);
@@ -1554,6 +1556,7 @@
             this.radA5_9_DTK.TabStop = true;
             this.radA5_9_DTK.Text = "ДТК";
             this.radA5_9_DTK.UseVisualStyleBackColor = true;
+            this.radA5_9_DTK.CheckedChanged += new System.EventHandler(this.radA5_9_DTK_CheckedChanged);
             this.radA5_9_DTK.Click += new System.EventHandler(this.radA5_9_Click);
             // 
             // btnA5_8
@@ -2298,7 +2301,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MRO v.3.33 AnyCPU";
+            this.Text = "MRO_KINZHAL v.1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.Load += new System.EventHandler(this.frmMain_Load);

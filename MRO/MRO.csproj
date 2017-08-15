@@ -65,8 +65,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\Multimedia.dll</HintPath>
     </Reference>
-    <Reference Include="SharpDX">
-      <HintPath>..\..\Joystik\Joystik\bin\Debug\SharpDX.dll</HintPath>
+    <Reference Include="SharpDX, Version=2.4.1.0, Culture=neutral, PublicKeyToken=627a3d6d1956f55a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\SharpDX.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.DirectInput">
       <HintPath>..\..\Joystik\Joystik\bin\Debug\SharpDX.DirectInput.dll</HintPath>
